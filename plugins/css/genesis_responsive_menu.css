@@ -1,0 +1,138 @@
+.nav-primary .genesis-nav-menu { 
+    display: block; 
+    height: auto; 
+}
+.nav-primary #menu-mobile {
+    display: none;
+    height: 0;
+}
+.genesis-nav-menu .menu-item a{
+    padding-top:0;
+    padding-bottom:0;
+    text-transform: none;
+    font-weight: bold;
+    text-align:center;
+}
+.genesis-nav-menu  a:hover {
+    background: #b1c47c!important;
+}
+.genesis-nav-menu .menu-item {
+    float: left;
+    line-height: 100px;
+    height:100px;
+    width:14%;
+}
+.genesis-nav-menu .sub-menu .menu-item {
+    float: left;
+    line-height: 50px;
+    height:50px;
+    width: 200px;
+}
+.genesis-nav-menu >img {
+    float: left;
+    padding-top:15px;
+    padding-top:1.5rem;
+}
+.nav-primary .sub-menu a:hover,
+.nav-primary .sub-menu a {
+    color: white;
+}
+
+#offcanvas #menu-mobile {
+    display: block;
+}
+div#offcanvas nav{
+    height:0;
+    margin-bottom: 80px;
+}
+#offcanvas .nav-primary {
+    background: none;
+}
+
+#offcanvas .menu-item-has-children {
+     height: auto!important;
+ }
+#offcanvas .nav-primary .genesis-nav-menu.displaynone,
+#offcanvas .genesis-nav-menu >img,
+#offcanvas li.menu-item.menu-right {
+   display: none;
+}
+#offcanvas .nav-primary .genesis-nav-menu a,
+#offcanvas .nav-primary .genesis-nav-menu li {
+    color: white;
+    height:40px;
+    line-height:40px;
+    width:100%;
+}
+#offcanvas .nav-primary .genesis-nav-menu{        
+    width:0;
+    height:100vh;
+    background: black;
+    overflow:hidden;
+    transition: 1s ease all;
+}
+#offcanvas .nav-primary #menu-mobile {
+    color: #999;
+    cursor: pointer;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 18px;
+    text-transform: uppercase;
+    background:black;
+    background-image: url("images/logo.png");
+    background-position: 90% center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height:80px;
+    line-height:80px;
+    padding-left:5%;
+}
+ 
+#offcanvas nav-primary  .menu-item,
+#offcanvas .nav-primary ul,
+#offcanvas .nav-primary  a,
+#offcanvas .nav-primary  .sub-menu,
+#offcanvas .nav-primary  .sub-menu a{
+    width: 100%;
+    overflow: hidden;
+    background: none;
+    position: relative;
+    left:0;
+    text-align:left;
+}
+#offcanvas .nav-primary .genesis-nav-menu .menu-item > .sub-menu {
+    padding-left:30px;
+    left: inherit;
+    opacity: 1;
+    position: relative;
+}
+#offcanvas  .genesis-nav-menu .sub-menu a {
+    background: none;
+    border:none;
+    color: white;
+ }
+#offcanvas  a:hover,
+#offcanvas  a:focus,
+#offcanvas  a:active {
+
+/*     replave if another colour wanted on mobilemenu   background-color: red!important;*/
+}
+ 
+#rememberNav    .nav-primary .genesis-nav-menu { 
+    display: block !important; 
+    height: auto; 
+}
+#rememberNav    .nav-primary #menu-mobile {
+    display: none;
+    height: 0;
+}
+#rememberNav    .sub-menu a{
+    background: grey;
+    color: white;
+}
+.site-container{transition: 1s ease all;
+    width: 100%;
+    overflow:hidden;
+}
