@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var offCanvas=false; /* Are we using mobile menu, start with not */
+
+var offCanvas=false; /* Are we using mobile menu? start with not */
 var startLeft = 0; /* Remember initial value */
 var modernBrowser = false;
 
@@ -11,8 +12,8 @@ jQuery( function($) {
     'use strict';
     startLeft = $(".site-container").css("marginLeft");
     /* Make a newdiv first and wrap normal menu so we can get it back */ 
-    $( '<div id="menu-mobile">&#8801; Menu</div>' ).insertBefore( 'ul.menu-primary' );
-    $("Nav" ).wrap( "<div id='rememberNav'></div>" );   
+    $( '<div id="menu-mobile"> </div>' ).insertBefore( 'ul.menu-primary' );
+    $(".nav-primary" ).wrap( "<div id='rememberNav'></div>" );   
     $( '<div id="offcanvas"></div>' ).insertBefore( '.site-container' );
     if ( typeof Modernizr=== 'undefined' ) {
         modernBrowser = true; 
@@ -23,8 +24,9 @@ jQuery( function($) {
         
     /* Lets move menu if a amall window */
     if ($(window).width()<769) {
-        $("Nav").appendTo('#offcanvas');
+        $(".nav-primary").appendTo('#offcanvas');
         offCanvas=true;
+        $( '<div id="offcanvasclear"></div>' ).insertBefore( '.site-container' );
     }
     
     /* Handle clicks */
@@ -72,11 +74,13 @@ jQuery( function($) {
             $('.menu-primary').css('width',"0%");
             if(!offCanvas) {
                 offCanvas=true;
-                $("Nav").appendTo('#offcanvas');
-            }
+                $(".nav-primary").appendTo('#offcanvas');
+                $( '<div id="offcanvasclear"></div>' ).insertBefore( '.site-container' );
+           }
         }
         else {
-           $("Nav").appendTo('#rememberNav');
+           $( 'div#offcanvasclear' ).remove( );
+            $(".nav-primary").appendTo('#rememberNav');
            offCanvas=false;
            $("div.site-container").css("margin-left",startLeft);
            $('.menu-primary').css('width',"100%");
