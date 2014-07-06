@@ -3,13 +3,14 @@
  * Plugin Name: Genesis responsive menu
  * Plugin URI: 
  * Description: Makes the primary menu responsive.
- * Version: 0.02
+ * Version: 0.03
  * Author: Karin H Olsson
  * Author URI: http://kobotolo.se
  * License: GPL2
  *  * GitHub Plugin URI: https://github.com/kaolss/Responsive-menu-genesis
  * GitHub Branch:     master
  */
+
 
 add_action( 'wp_enqueue_scripts', 'ok_responsive_css' );
 
