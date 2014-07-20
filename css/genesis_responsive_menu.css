@@ -68,7 +68,7 @@ div#offcanvasclear{
  }
 
 #offcanvas .nav-primary .genesis-nav-menu.displaynone,
-#offcanvas .genesis-nav-menu >img,
+#offcanvas >img,
 #offcanvas li.menu-item.menu-right {
    display: none;
 }
