@@ -3,7 +3,7 @@
  * Plugin Name: Genesis responsive menu
  * Plugin URI: 
  * Description: Makes the primary menu responsive.
- * Version: 0.04
+ * Version: 0.041
  * Author: Karin H Olsson
  * Author URI: http://kobotolo.se
  * License: GPL2
