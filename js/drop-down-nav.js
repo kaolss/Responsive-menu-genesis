@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-var offCanvas=false; /* Are we using mobile menu? start with not */
+var offCanvas=false; /* Are we using mobile menu, start with not */
 var startLeft = 0; /* Remember initial value */
 var modernBrowser = false;
 
@@ -45,6 +44,7 @@ jQuery( function($) {
                     'width': '100%'  }, 1000);
                  }
                 else {    
+                    $( 'body' ).css('overflow', 'hidden');
                     $( '.site-container' ).css('margin-left', '250px');
                     $( '.menu-primary' ).css('width', '250');
                 }            }
@@ -58,6 +58,7 @@ jQuery( function($) {
                 else {
                     $( '.site-container' ).css('margin-left', '0');
                     $( '.menu-primary' ).css('width', '0');
+                    $( 'body' ).css('overflow', 'auto');
                 }
             }
         }
