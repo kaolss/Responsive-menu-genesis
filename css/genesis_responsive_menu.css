@@ -104,7 +104,7 @@ div#offcanvasclear{
     padding-left:5%;
 }
 #offcanvas  #menu-mobile:before {
-    content: "\2261 \0020 Menuxxxcc";
+    content: "\2261 \0020 Meny";
     vertical-align: middle; 
     text-transform: uppercase;
 }
