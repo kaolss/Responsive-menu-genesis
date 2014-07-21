@@ -3,148 +3,195 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-/************* Styles for both wide and small screens */
-
 /*********** nav-primary**************/
-.nav-primary #menu-mobile {
-    display: none;
-    height: 0;
+/* line 24, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000324}}
+#rememberNav {
+  /***************** sub menu **************/
 }
-/**********genesis nav menu **************/
-.nav-primary .menu-item a{
-    padding-top:0;
-    padding-bottom:0;
-    text-transform: none;
-    font-weight: bold;
-    text-align:center;
+/* line 25, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000325}}
+#rememberNav .menu-primary {
+  display: block !important;
+  height: auto;
 }
-.nav-primary  a:hover {
-    background: #b1c47c;
+/* line 29, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000329}}
+#rememberNav nav {
+  background: #000000;
+  padding: 0;
 }
-.nav-primary .menu-item {
-    float: left;
-    line-height: 100px;
-    height:100px;
+/* line 33, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000333}}
+#rememberNav #menu-mobile {
+  display: none;
+  height: 0;
 }
-/**********genesis sub menu **************/
-.nav-primary .sub-menu .menu-item {
-    float: left;
-    line-height: 50px;
-    height:50px;
-    width: 200px;
+/* line 37, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000337}}
+#rememberNav .menu-item {
+  line-height: 90px;
+  height: 90px;
 }
-
-.nav-primary >img {
-    float: left;
-    padding-top:15px;
-    padding-top:1.5rem;
+/* line 40, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000340}}
+#rememberNav .menu-item a {
+  padding-top: 0;
+  padding-bottom: 0;
 }
-
-.nav-primary .sub-menu a:hover,
-.nav-primary .sub-menu a {
-    color: white;
+/* line 44, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000344}}
+#rememberNav .menu-item a:hover {
+  background: #008000;
+  color: #ffffff;
+}
+/* line 52, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000352}}
+#rememberNav .sub-menu .menu-item a {
+  line-height: 40px;
+  height: 40px;
+  width: 200px;
+  background: #ffff00;
+  color: #000000;
+}
+/* line 60, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000360}}
+#rememberNav .sub-menu a:hover {
+  color: #ffffff;
+  background: #008000;
+}
+/* line 65, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000365}}
+#rememberNav > img {
+  float: left;
+  padding-top: 15px;
+  padding-top: 1.5rem;
 }
 /*************** offcanvas ******************/
+/* line 73, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000373}}
 div#offcanvas {
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
 }
-div#offcanvas nav{
-    height:80px;
-    line-height:80px;
-    
+/* line 76, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000376}}
+div#offcanvas nav {
+  height: 100px;
+  line-height: 100px;
+  background: #000000;
 }
-div#offcanvasclear{
-    height:80px;
-    
+/* line 82, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000382}}
+div#offcanvas .sub-menu,
+div#offcanvas .sub-menu a {
+  width: 100%;
 }
-#offcanvas #menu-mobile {
-    display: block;
+/* line 86, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000386}}
+div#offcanvas a:hover {
+  background: #008000;
+  color: #ffffff;
 }
-
-#offcanvas .menu-item-has-children {
-     height: auto!important;
- }
-
-#offcanvas .nav-primary .genesis-nav-menu.displaynone,
-#offcanvas >img,
+/* line 90, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000390}}
+div#offcanvas #menu-mobile {
+  display: block;
+}
+/* line 93, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000393}}
+div#offcanvas .menu-item-has-children {
+  height: auto!important;
+}
+/* line 96, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\0000396}}
+div#offcanvas .menu-item {
+  height: 40px;
+  line-height: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+/* line 103, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003103}}
+div#offcanvas .sub-menu {
+  padding-left: 30px;
+  left: inherit;
+  opacity: 1;
+  position: relative;
+}
+/* line 109, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003109}}
+div#offcanvas a,
+div#offcanvas li {
+  color: inherit;
+  background: none;
+  width: 100%;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 118, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003118}}
+div#offcanvas .menu-primary {
+  width: 0px;
+  height: 100vh;
+  background: #000000;
+  overflow: hidden;
+  transition: width 1s ease;
+  position: fixed;
+}
+/* line 127, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003127}}
+div#offcanvas #menu-mobile {
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  background-image: url("images/logo.png");
+  background-position: 90% center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+  background: #000000;
+}
+/* line 140, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003140}}
+div#offcanvas #menu-mobile:before {
+  content: "\2261 \0020 Menu";
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 147, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003147}}
+div#offcanvasclear {
+  height: 100px;
+}
+/* line 154, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003154}}
+#offcanvas .nav-primary > img,
 #offcanvas li.menu-item.menu-right {
-   display: none;
+  display: none;
 }
-
-#offcanvas .genesis-nav-menu .sub-menu a,
-#offcanvas  .genesis-nav-menu li {
-    color: inherit;
-    background: none;
-    height:40px;
-    line-height:40px;
-    width:100%;
-    border:none;
-}
-#offcanvas  .genesis-nav-menu{        
-    width:0px;
-    height:100vh;
-    background: green;
-    overflow:hidden;
-    transition:  width 1s ease;
-    position:fixed;
-}
-#offcanvas  #menu-mobile {
-    color: white;
-    cursor: pointer;
-    display: block;
-    font-family: Lato, sans-serif;
-    font-size: 18px;
-    font-size: 1.8rem;
-    background-image: url("images/logo.png");
-    background-position: 90% center;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    padding-left:5%;
-}
-#offcanvas  #menu-mobile:before {
-    content: "\2261 \0020 Meny";
-    vertical-align: middle; 
-    text-transform: uppercase;
-}
-
-#offcanvas nav-primary  .menu-item,
+/* line 160, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003160}}
+#offcanvas nav-primary .menu-item,
 #offcanvas .nav-primary ul,
-#offcanvas .nav-primary  a,
-#offcanvas .nav-primary  .sub-menu,
-#offcanvas .nav-primary  .sub-menu a{
-    overflow: hidden;
-    position: relative;
-    left:0;
-    text-align:left;
- }
-#offcanvas .nav-primary  .sub-menu,
-#offcanvas .nav-primary  .sub-menu a{
-    width: 100%;
+#offcanvas .nav-primary a,
+#offcanvas .nav-primary .sub-menu,
+#offcanvas .nav-primary .sub-menu a {
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  text-align: left;
 }
-#offcanvas .genesis-nav-menu .sub-menu {
-    padding-left:30px;
-    left: inherit;
-    opacity: 1;
-    position: relative;
-}
- 
-#rememberNav  .genesis-nav-menu { 
-    display: block !important; 
-    height: auto; 
-}
-#rememberNav #menu-mobile {
-    display: none;
-    height: 0;
-}
-#rememberNav  .sub-menu a{
-    background: grey;
-    color: white;
-}
-
 /***************** Site container *******************/
-.site-container{transition: margin-left 1s ease ;
-    width: 100%;
-    overflow:hidden;
+/* line 172, C:\xampp\htdocs\PhpProject4\less\genesis_responsive_menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/PhpProject4\/less\/genesis_responsive_menu\.less}line{font-family:\00003172}}
+.site-container {
+  transition: margin-left 1s ease;
+  width: 100%;
+  overflow: hidden;
 }
